@@ -23,7 +23,7 @@ function auth(req, res, next) {
   const decoded = Buffer.from(encoded, "base64").toString("utf8");
   const [user, pass] = decoded.split(":");
 
-  if (user === "aztech" && pass === "786") {
+  if (user === "REXXY" && pass === "#subhan123) {
     return next();
   }
 
